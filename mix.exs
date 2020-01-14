@@ -34,7 +34,7 @@ defmodule NewRelicPhoenix.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:phoenix, "~> 1.4"},
-      {:new_relic_agent, "~> 1.0", allow_pre: true}
+      {:new_relic_agent, "~> 1.15-pre"}
     ]
   end
 end
